@@ -11,6 +11,7 @@ Note: This program was made for the macOS operating system
 from selenium import webdriver
 from selenium.common.exceptions import *
 from selenium.webdriver.common.keys import Keys  # For pressing 'enter'
+from selenium.webdriver.chrome.options import Options
 import urllib.request
 from urllib.request import urlopen
 import subprocess
@@ -19,7 +20,7 @@ import time
 import os
 import sys
 from termcolor import colored  # Does cool-looking print statements when run in the Terminal
-from selenium.webdriver.chrome.options import Options
+
 import smtplib
 from email.mime.text import MIMEText
 
