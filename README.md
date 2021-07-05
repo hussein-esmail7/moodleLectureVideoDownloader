@@ -1,5 +1,12 @@
 # moodleLectureVideoDownloader
-## Description
+
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [What is this?](#what-is-this?)
+- [Installation](#Installation)
+- [Donate](#donate)
+
+## What is this?
 This video downloads all the videos from Moodle online lectures into one folder.
 
 This program is made for macOS. It first opens the "Backup and Sync from Google" application (the Desktop Google Drive application for macOS), then uses a chromedriver with the selenium library to download the videos.
@@ -25,3 +32,6 @@ After that is done, you can now run the movieConverter program.
 ```
 python3 mainFile.py
 ```
+
+## Donate
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/husseinesmail)
